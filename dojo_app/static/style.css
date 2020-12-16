@@ -3,3 +3,9 @@
     outline: 2px dotted orange;
     width: 75%;
 }
+
+form {
+    margin: 30px auto;
+    padding: 15px;
+    border: 2px solid blue
+}
