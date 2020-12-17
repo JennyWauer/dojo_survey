@@ -9,9 +9,9 @@
 </head>
 <body>
 
-    {% csrf_token %}
-    <form>
-        <label for="name" action="/" method="POST">Your Name:</label>
+    <form action="result/" method="POST">
+        {% csrf_token %}
+        <label for="name">Your Name:</label>
         <input type="text" id="name" name="name">
         <br>
         <label for="location">Dojo Location:</label>
