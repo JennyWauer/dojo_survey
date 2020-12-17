@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, HttpResponse
 
 # Create your views here.
 def home(request):
@@ -13,3 +13,4 @@ def result(request):
             "comment": request.POST['comment'],
         }
         return render(request, "result.html", context)
+    return render(request, "result.html")
