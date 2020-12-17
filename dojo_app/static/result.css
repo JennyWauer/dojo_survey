@@ -1,0 +1,15 @@
+body {
+    margin: 30px auto;
+    padding: 15px;
+    border: 2px solid blue;
+    width: 50%;
+}
+
+h1 {
+    /* margin: 5px; */
+    text-decoration: underline;
+}
+
+p {
+    margin: 10px;
+}
