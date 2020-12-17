@@ -21,7 +21,7 @@ textarea {
     width: 50%;
 }
 
-.button {
+button {
     box-shadow: 2px 2px gray;
     margin-left: 10px;
 }
