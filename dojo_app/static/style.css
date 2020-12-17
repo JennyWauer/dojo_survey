@@ -1,11 +1,14 @@
 * {
     margin: 0 auto;
-    outline: 2px dotted orange;
-    width: 75%;
+    padding: 0px;
 }
 
 form {
     margin: 30px auto;
     padding: 15px;
     border: 2px solid blue
+}
+
+label {
+    padding: 10px;
 }
