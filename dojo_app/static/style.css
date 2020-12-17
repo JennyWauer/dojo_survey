@@ -16,4 +16,9 @@ label {
 
 textarea {
     margin-left: 10px;
+    width: 50%;
+}
+
+.button {
+    box-shadow: 2px 2px gray;
 }
