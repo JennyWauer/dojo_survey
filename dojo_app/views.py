@@ -12,5 +12,5 @@ def result(request):
             "fav": request.POST['fav'],
             "comment": request.POST['comment'],
         }
-        return render(request, "result.html", context)
+        return redirect(request, "result.html", context)
     return render(request, "result.html")
