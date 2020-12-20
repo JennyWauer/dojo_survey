@@ -14,4 +14,4 @@ def result(request):
             "comment": request.POST['comment'],
         }
         return render(request, "result.html", context)
-    return render(request, "result.html")
+    # return render(request, "result.html")
