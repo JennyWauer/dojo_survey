@@ -1,4 +1,5 @@
-from django.shortcuts import render, redirect
+
+from django.shortcuts import render, HttpResponse
 
 # Create your views here.
 def home(request):
@@ -12,5 +13,5 @@ def result(request):
             "fav": request.POST['fav'],
             "comment": request.POST['comment'],
         }
-        return redirect(request, "result.html", context)
+        return render(request, "result.html", context)
     return render(request, "result.html")
