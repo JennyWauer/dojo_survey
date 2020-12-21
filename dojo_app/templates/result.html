@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {% load static %}
-    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <link rel="stylesheet" href="{% static 'result.css' %}">
     <title>Result</title>
 </head>
 <body>
 
     <h1>Submitted Info</h1>
     <div>
-        <p>Your name:{{name}}</p>
-        <p>Location: {{location}}</p>
-        <p>Favorite Language: {{language}}</p>
-        <p>Comment: {{comment}}</p>
+        <p>Your name: {{your_answer.name}}</p>
+        <p>Location: {{your_answer.location}}</p>
+        <p>Favorite Language: {{your_answer.fav}}</p>
+        <p>Comment: {{your_answer.comment}}</p>
     </div>
     <button>Go Back</button>
     

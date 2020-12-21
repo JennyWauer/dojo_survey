@@ -6,10 +6,14 @@ body {
 }
 
 h1 {
-    /* margin: 5px; */
+    margin: 5px;
     text-decoration: underline;
 }
 
 p {
     margin: 10px;
+}
+
+button {
+    margin: 5px;
 }
